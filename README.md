@@ -1,9 +1,11 @@
 # ga-qr
-`ga-qr` is a tool to print qr code of a google auth key. You can scan generated qr code to add it on Google Authanticator app. 
+`ga-qr` is a tool to print qr code of a google auth key. You can scan generated qr code to add on Google Authanticator app. 
 
+## Installation
+`% go get -u github.com/oguzhane/ga-qr`
 ## Usage
-`ga-qr [options]`
-## Options
+`% ga-qr -s <secretkey> -i <issuer> -l <label>`
+### Flags
     -i string
         Issuer
     -l string
